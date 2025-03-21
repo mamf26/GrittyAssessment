@@ -1,41 +1,43 @@
-<<<<<<< HEAD
-# GrittyAssessment
-AI WebApp
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GrittyAssessment - AI WebApp
 
-## Getting Started
+## Questions from Tech Assessment
 
-First, run the development server:
+### Set up 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Repo: 
+git clone https://github.com/mamf26/GrittyAssessment.git
+cd GrittyAssessment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Dependencies: 
+npm install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Environment: 
+touch .env.local
+OPEN_AI_KEY=your_open_api_key_here
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Running the application: 
+npm run dev --> you should then see http://localhost:3000
 
-## Learn More
+### Description of Features Implemented
 
-To learn more about Next.js, take a look at the following resources:
+Features consist of a web that allows the user to input a request, and recieve a response from the connected Chat GPT model. All was possible with the use of Node/Next, typescript, js. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Any Libraries or tools used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+openai 
+react
+tailwind 
+css
+next 
 
-## Deploy on Vercel
+### Known Issues or limitations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I realized that some limitations consisted of some AI models being limited, therefore I chose to use ChatGPT older models. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> 1011f03 (initial commit)
+As well, I've delt with analytics involving AI but this attempt was my first in making the connection from a backend to an API. 
+
+Many times, error handling would be missed and realized when testing. 
+
+### If I had more time, what would I improve
+
+With more time, I would have definitely created tests that would help me debugg a little more efficiently. As well, the UI is not the best, but I was able to learn a lot thanks to tailwind resourecs when it came to design. 
